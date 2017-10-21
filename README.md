@@ -1,26 +1,18 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Todo
 
-## How to use this template
+Angular, NodeJS, ExpressJS and MongoDB RESTful API Tutorial.
+See [Creating a RESTful API Tutorial](http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb/) post for more details.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+# Installation
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+You just need to install dependencies:
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+npm install
 ```
 
-Then, to run it, cd into `myTabs` and run:
+And start the program
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+npm start
 ```
-
-Substitute ios for android if not on a Mac.
-
